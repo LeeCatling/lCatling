@@ -122,6 +122,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+MEDIA_ROOT = os.path.jdef __str__(self):
+        return self.nameoin(BASE_DIR, 'media')
+MEDIA_URL ='/media/'
+
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL= 'reviews-home'
 LOGIN_URL = 'login'
