@@ -22,6 +22,6 @@ class Review(models.Model):
 	date = models.DateField(default = timezone.now)
 
 	def __str__(self):
-		return self.name
+		return self.author.username
 
 # Create your models here.
